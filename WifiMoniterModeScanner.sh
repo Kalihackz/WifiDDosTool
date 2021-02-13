@@ -13,5 +13,4 @@ airmon-ng check kill
 echo -e -n "\e[91m"
 echo -e "Moniter\e[95m Mode Started.."
 sleep 3
-gnome-terminal -x sh -c "./wifiDos.sh; bash"
 airodump-ng wlan0
